@@ -36,7 +36,7 @@ public class WebClientConfig {
     }
 
     @Bean
-    @Description("idp webclient builder")
+    @Description("webclient builder")
     public WebClient webClient(WebClient.Builder builder, ReactorClientHttpConnector reactorClientHttpConnector) {
         return builder
 //                .clientConnector(new JettyClientHttpConnector(jettyHttpClient()))
