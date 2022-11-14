@@ -15,9 +15,6 @@ import reactor.netty.transport.logging.AdvancedByteBufFormat;
 
 import java.net.URI;
 
-import static com.att.idp.logger.LoggingEnhancer.enhance;
-import static com.att.idp.logger.RequestLogger.logRequest;
-import static com.att.idp.logger.ResponseLogger.logResponse;
 
 @Slf4j
 //@ConfigurationProperties(prefix = "reactive-api-client")
